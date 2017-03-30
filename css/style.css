@@ -1,0 +1,76 @@
+.drag_me{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: navajowhite;
+    border-radius: 30px;
+    vertical-align: middle;
+    line-height: 50px;
+	margin: auto;
+}
+
+.boxElement{
+	width: 50%;
+	height: inherit;
+	float: left;
+}
+.drop_to{
+    margin-top: 20px;
+    text-align: center;
+	height: 450px;
+}
+
+.fruit,.flower{
+
+    height: 400px;
+    width: 150px;
+    border: 1px solid black;    
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px black;
+	margin: 0 auto;
+}
+
+.fruit h3, .flower h3{
+    background-color: yellowgreen;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.wrong{
+	
+	color:red;
+	margin-left:3px;
+}
+
+.right{
+	
+	color:green;
+	margin-left:3px;
+}
+
+.scoreWrapper{
+	height: 100px;
+    width: 250px;
+	margin: auto;
+}
+
+.scoreWrapper span{
+	    font-size: 20px;	
+}
+.scoreWrapper .score{
+    border-radius: 15px;
+    border: 2px solid;    
+    height: 40px;
+    width: 100px;
+    background-color: blanchedalmond;
+	color:black;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+}
+

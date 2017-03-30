@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+         <script src="js/match.js"></script>
+    </head>
+    <body onload="generate()">
+
+        <div class="drag_me" draggable="true" ondragstart="drag(event)" id="drag">
+        </div>
+
+        <div class="drop_to">
+		
+			<div class="boxElement">
+				<div class="fruit" ondrop="drop(event)" ondragover="allowDrop(event)" id="drop1" type="fruit">
+					<h3>FRUIT</h3>
+				</div>
+			</div>
+			
+			<div class="boxElement">
+				<div class="flower" ondrop="drop(event)" ondragover="allowDrop(event)" id="drop2" type="flower">
+					<h3>FLOWER</h3>
+				</div>
+			</div>
+
+        </div>
+		<div class="scoreWrapper">
+			<span>Score</span>
+			<div class="score" id="score"></div>
+		</div>
+
+      
+    </body>
+</html>
